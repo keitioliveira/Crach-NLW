@@ -29,7 +29,6 @@ function getGitHubProfileInfos(){
   })
 }
 
-
 var iconlinkedin = document.getElementById("iconlinkedin");
 iconlinkedin.addEventListener("mouseenter", function( event ) {
   this.className= "animate__animated animate__bounce";
@@ -53,5 +52,6 @@ iconfacebook.addEventListener("mouseenter", function( event ) {
 iconfacebook.addEventListener("mouseover", function( event ) {
   this.className = "";
 }, false);
+
 
 getGitHubProfileInfos()
