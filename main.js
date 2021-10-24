@@ -29,4 +29,29 @@ function getGitHubProfileInfos(){
   })
 }
 
+
+var iconlinkedin = document.getElementById("iconlinkedin");
+iconlinkedin.addEventListener("mouseenter", function( event ) {
+  this.className= "animate__animated animate__bounce";
+}, false);
+iconlinkedin.addEventListener("mouseover", function( event ) {
+  this.className = "";
+}, false);
+
+var iconinstagram = document.getElementById("iconinstagram");
+iconinstagram.addEventListener("mouseenter", function( event ) {
+  this.className= "animate__animated animate__bounce";
+}, false);
+iconinstagram.addEventListener("mouseover", function( event ) {
+  this.className = "";
+}, false);
+
+var iconfacebook = document.getElementById("iconfacebook");
+iconfacebook.addEventListener("mouseenter", function( event ) {
+  this.className= "animate__animated animate__bounce";
+}, false);
+iconfacebook.addEventListener("mouseover", function( event ) {
+  this.className = "";
+}, false);
+
 getGitHubProfileInfos()
